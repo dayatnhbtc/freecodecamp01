@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="titlepage">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </div>
+    <div class="containerform">
+      <form action="" id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label">Nama</label>
+          <input type="text" name="" id="name" placeholder="Yanto" required />
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="dayat@gmail.com"
+            required />
+          <label for="number" id="number-label">Umur</label>
+          <input
+            type="number"
+            name=""
+            id="number"
+            min="10"
+            max="30"
+            placeholder="22"
+            required />
+          <select name="" id="dropdown">
+            <option value="">Pilih</option>
+            <option value="">Loli</option>
+            <option value="">Milf</option>
+            <option value="">Teen</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <input type="radio" name="sekolah" id="sekolah" value="sd" />
+          <label for="sd">SD</label>
+          <input type="radio" name="sekolah" id="sekolah" value="smp" />
+          <label for="smp">SMP</label>
+
+          <input type="checkbox" name="setuju" id="setuju" value="setuju" />
+          <label for="setuju">Setuju</label>
+          <input type="checkbox" name="tsetuju" id="setuju" value="tsetuju" />
+          <label for="tsetuju">Tidak</label>
+        </fieldset>
+        <fieldset>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="lorem2"></textarea>
+        </fieldset>
+        <input type="submit" value="" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>
